@@ -220,8 +220,8 @@ after_word: 是否需要下班打卡，下班打卡是否延迟、延迟多久
 `from` 来源   
 `platform` 系统  
 `Ai_peport Ai_peport` 是否启用Ai攥写报告,默认 false 关闭   
-`ZhipuAI_model` 智谱Ai模型,默认 `glm-4-flash`  
-`ZhipuAI_key` 智谱Ai密钥  注意，如果你的并发数量不高，请不要让设置并行数字太大    
+`Deepseek_model` Deepseek Ai模型  
+`Deepseek_key` Deepseek Ai密钥  注意，如果你的并发数量不高，请不要让设置并行数字太大    
 `report_max_concurrent_users` 并发最大用户数，默认1，如果跟不上请求，请降低此数值      
 `pushMessageReduction` 消息是否精简，默认关闭。精简后不会输出成功用户，只会输出失败用户与汇总。如果用户很多建议打开     
 **`key`** 习讯云打卡经纬度加密公钥，必须进行习讯云认证的公钥加密，否则打卡地址会被拒收。      
